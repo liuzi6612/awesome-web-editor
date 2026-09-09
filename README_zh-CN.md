@@ -49,7 +49,9 @@
   - [mobiledoc-kit](https://github.com/bustle/mobiledoc-kit) ★ 1563 - 使用 Mobiledoc 构建所见即所得编辑器的工具包。
   - [Textbus](https://github.com/textbus/textbus) ★ 1387 - 一个组件化、高性能的富文本开发框架，并且支持在线协作编辑。
   - [am-editor](https://github.com/yanmao-cc/am-editor) ★ 976 - 一个富文本实时协同编辑器框架，可以使用 React 和 Vue 自定义插件。
-  - [wangEditor-next](https://github.com/cycleccc/wangEditor-next) ★ 0 - wangEditor-next —— 基于 slate.js 的富文本编辑器。
+  - [wangEditor-next](https://github.com/wangeditor-next/wangEditor-next) ★ 0 - wangEditor-next —— 基于 slate.js 的富文本编辑器。
+  - [hugerte](https://github.com/hugerte/hugerte) ★ 593 - TinyMCE的MIT许可的分支，TinyMCE是全球排名第一的富文本编辑JavaScript库，其最新版本已从MIT许可切换至GPL或付费许可模式。
+  - [lake](https://github.com/lakejs/lake) ★ 84 - 一个网页版富文本编辑器。
 - vue.js
   - [tiptap](https://github.com/heyscrumpy/tiptap) ★ 38174 - 面向 web 技术人员的无头富文本编辑器框架。
   - [vue-quill-editor](https://github.com/surmon-china/vue-quill-editor) ★ 7399 - Vue 的 Quill 编辑器组件，支持 SPA 和 SSR.

@@ -49,7 +49,9 @@
   - [mobiledoc-kit](https://github.com/bustle/mobiledoc-kit) ★ 1563 - A toolkit for building WYSIWYG editors with Mobiledoc.
   - [Textbus](https://github.com/textbus/textbus) ★ 1385 - A component-based and high-performance rich text develop framework that Support online collaborative editing.
   - [am-editor](https://github.com/yanmao-cc/am-editor) ★ 974 - A rich text collaborative editor framework that can use React and Vue custom plug-ins.
-  - [wangEditor-next](https://github.com/cycleccc/wangEditor-next) ★ 0 - wangEditor-next —— rich text editor, based on slate.js.
+  - [wangEditor-next](https://github.com/wangeditor-next/wangEditor-next) ★ 0 - wangEditor-next —— rich text editor, based on slate.js.
+  - [hugerte](https://github.com/hugerte/hugerte) ★ 593 - MIT-licensed fork of TinyMCE, the world's #1 JavaScript library for rich text editing, which switched from MIT to a GPL-or-pay license model in its latest version.
+  - [lake](https://github.com/lakejs/lake) ★ 84 - A rich text editor for the web.
 - vue.js
   - [tiptap](https://github.com/heyscrumpy/tiptap) ★ 38313 - The headless rich text editor framework for web artisans.
   - [vue-quill-editor](https://github.com/surmon-china/vue-quill-editor) ★ 7398 - Quill editor component for Vue, support SPA and SSR.
