@@ -24,7 +24,7 @@
 ## Rich text editor
 
 - Pure JavaScript
-  - [quill](https://github.com/quilljs/quill) ★ 47369 - Quill is a modern WYSIWYG editor built for compatibility and extensibility.
+  - [quill](https://github.com/quilljs/quill) ★ 47372 - Quill is a modern WYSIWYG editor built for compatibility and extensibility.
   - [tiptap](https://github.com/heyscrumpy/tiptap) ★ 38818 - The headless rich text editor framework for web artisans.
   - [Editor.js](https://github.com/codex-team/editor.js) ★ 31972 - A block-styled editor with clean JSON output.
   - [lexical](https://github.com/facebook/lexical) ★ 23974 - Lexical is an extensible text editor framework that provides excellent reliability, accessibility and performance.
