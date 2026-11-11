@@ -116,6 +116,7 @@
   - [turndown](https://github.com/domchristie/turndown) ★ 11029 - 用 JavaScript 编写的 HTML 至 Markdown 转换器。
   - [remark](https://github.com/remarkjs/remark) ★ 8823 - remark 是 Markdown 处理器，由统一集合的插件提供支持。
   - [markdown-js](https://github.com/evilstreak/markdown-js) ★ 7686 - Markdown 的 javascript 解析器。
+  - [markstream](https://github.com/Simon-He95/markstream-vue) ★ 3056 - 支持 Vue、React、Solid、Svelte 和 Angular 的流式 Markdown 解析器与渲染组件。
   - [texme](https://github.com/susam/texme) ★ 2432 - 自我渲染 Markdown + LaTeX 文档。
   - [md4x](https://github.com/unjs/md4x) ★ 361 - 快速且小巧的 Markdown 解析器和渲染器。
 - Golang

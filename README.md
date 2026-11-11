@@ -116,6 +116,7 @@
   - [turndown](https://github.com/domchristie/turndown) ★ 11029 - An HTML to Markdown converter written in JavaScript.
   - [remark](https://github.com/remarkjs/remark) ★ 8823 - remark is a Markdown processor powered by plugins part of the unified collective.
   - [markdown-js](https://github.com/evilstreak/markdown-js) ★ 7686 - A Markdown parser for javascript.
+  - [markstream](https://github.com/Simon-He95/markstream-vue) ★ 3056 - Streaming Markdown parser and renderers for Vue, React, Solid, Svelte and Angular.
   - [texme](https://github.com/susam/texme) ★ 2432 - Self-rendering Markdown + LaTeX documents.
   - [md4x](https://github.com/unjs/md4x) ★ 361 - Fast and small markdown parser and renderer.
 - Golang
