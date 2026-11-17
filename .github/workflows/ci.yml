@@ -8,28 +8,34 @@ on:
     - cron: "18 18 * * *"
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-      - name: Install dependencies and Run
+      - name: Install dependencies
         run: |
-          github_access_token=${{ secrets.TOKEN }}
-          export github_access_token
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          python star.py
-          python star.py README_zh-CN.md
+      - name: Test star updater
+        run: python -m unittest discover -s tests -v
+      - name: Update stars
+        env:
+          GITHUB_ACCESS_TOKEN: ${{ secrets.TOKEN }}
+        run: python star.py README.md README_zh-CN.md
       - name: commit
         run: |
           git config --global user.email "xjh22222228@gmail.com"
           git config --global user.name "liuzi6612"
-          git add .
-          git commit -m "CI: update stars"
+          git add -- README.md README_zh-CN.md
+          if git diff --cached --quiet; then
+            echo "No star count changes to commit."
+          else
+            git commit -m "CI: update stars"
+          fi
       - name: Push
         uses: ad-m/github-push-action@master
         with:
